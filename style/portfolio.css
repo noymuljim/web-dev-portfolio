@@ -165,3 +165,38 @@ box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 .resume-download-cv{
   margin-top: 30px;
 }
+
+/* footer styles */
+footer{
+   padding: 130px 230px; 
+  display: flex;
+  gap: 100px;
+}
+.footer-column{
+  width: 50%;
+}
+
+footer input[type="text"], footer input[type="email"]{
+  height: 64px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 5px 20px;
+  margin-bottom: 24px;
+  border: none;
+
+}
+.footer textarea{
+  
+
+  background-color: white;
+  display: block;
+  padding: 5px 20px;
+  margin-bottom: 24px;
+
+}
+.area{
+  border-radius:5px;
+  border: none;
+}
